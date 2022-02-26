@@ -3,6 +3,7 @@ import './App.css';
 
 function App() {
   return (
+  
   <div>
     <head>
     <title>Udacity Todos Goals</title>
@@ -18,8 +19,27 @@ function App() {
     <input id='goal' type='text' placeholder='Add Goal' />
     <button id='goalBtn'>Add Goal</button>
     <ul id='goals'></ul>
-    </body>
-  </div>
+   
+    
+   <script type='text/javascript'>
+   
+   
+    // Library Code
+    function createStore (reducer) {
+      // The store should have four parts
+
+      
+    
+     
+    }
+     
+   
+  
+  </script>
+  
+  </body>
+ </div>
+ 
   );
 }
 
