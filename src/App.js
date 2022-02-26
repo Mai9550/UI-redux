@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div>
+    <head>
+    <title>Udacity Todos Goals</title>
+    </head>
+    <body>
+    <h1>Todo List</h1>
+    <input id='todo' type='text' placeholder='Add Todo' />
+    <button id='todoBtn'>Add Todo</button>
+    <ul id='todos'></ul>
+  
+  
+    <h1>Goals</h1>
+    <input id='goal' type='text' placeholder='Add Goal' />
+    <button id='goalBtn'>Add Goal</button>
+    <ul id='goals'></ul>
+    </body>
+  </div>
   );
 }
 
